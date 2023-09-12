@@ -1,0 +1,199 @@
+.profile-container{
+    width: 70%;
+    margin: 10px 10px 0 350px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* background-color: crimson; */
+    /* border: 2px solid black; */
+    
+}
+
+
+
+.left-box{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    /* padding: 20px; */
+}
+
+.left-box .upper-content{
+    display: flex;
+}
+
+.left-box .user-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    height: 40vh;
+    padding: 20px;
+    /* background-color: blue; */
+
+}
+
+.left-box .user-info .image{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: red;
+    padding: 3px;
+    
+}
+
+
+
+.left-box .user-info .image img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-bottom: 10px;
+    object-fit: cover;
+
+
+} 
+
+
+.left-box .user-info .name{
+    font-size: 25px;
+    font-weight: 800;
+    margin: 10px 0;
+}
+
+.left-box .user-info .username{
+    font-size: 18px;
+    font-weight: 800;
+    margin: 10px 0;
+}
+.left-box .user-info .edit-profile a{
+    font-size: 18px;
+    font-weight: 800;
+    margin: 10px 0;
+}
+
+
+.left-box .middle-content{
+    width: 60%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    /* background-color: lightseagreen; */
+    padding: 20px;
+}
+
+
+.left-box .middle-content .post-followers-following{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+
+
+
+.left-box .middle-content .post-followers-following div a{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.left-box .middle-content .total-likes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.left-box .middle-content .total-likes a i{
+    margin-top: 20px;
+    font-size: 15vw;
+    /* color: rgba(255, 60, 80, 1); */
+}
+
+.left-box .middle-content .total-likes a i:hover{
+    color: rgba(255, 60, 80, 1);
+}
+
+.left-box .middle-content .total-likes a p{
+    font-size: 25px;
+    margin-left: 45px;
+    font-weight: 600;
+    
+}
+
+
+.left-box .lower-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    /* background-color: blueviolet; */
+}
+
+
+
+.left-box .lower-content .button{
+    width: 20vw;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    margin: 40px 0px;
+    padding: 10px 24px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    background-color: rgba(255, 60, 80, 1);
+    
+    
+}
+
+
+.left-box .boi{
+    margin: 0 20px;
+    padding: 5px 10px;
+    /* background-color: antiquewhite; */
+}
+
+
+.right-box{
+    width: 35%;
+    
+}
+
+.right-box .cover-image{
+    width: 100%;
+    height: 70.2vh;
+    border: 1px solid black;
+}
+
+.right-box .cover-image img{
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+}
+
+
+
+/* ########## (screen-2) Media query for screens with a width between 577 to 768px   start here ############## */
+/* Small Devices (Tablets and Small Laptops) */
+@media (min-width: 770px) and (max-width: 1189px){
+    .profile-container{
+        width: 70%;
+        margin: 10px 5px 0  300px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /* background-color: crimson; */
+        /* border: 2px solid black; */
+        
+    }
+}

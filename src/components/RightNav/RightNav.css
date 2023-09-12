@@ -1,0 +1,18 @@
+.right-nav{
+    width: 20%;
+    height: 90%;
+    /* margin-left: ; */
+    background-color: crimson;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+
+@media(max-width: 1189px){
+
+    .right-nav{
+        display: none;
+    }
+}
+

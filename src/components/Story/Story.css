@@ -1,0 +1,241 @@
+
+/* ########## (screen-1) Media query for full screens start here ############## */
+/* Small Devices (Tablets and Small Laptops) */
+
+/* story start here */
+.story{
+    width: 60%;
+    margin: 10px 0;
+    margin-left: 265px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(219, 219, 219, 1);
+    border-radius: 8px;
+    background-color: white;
+    padding: 30px 15px;
+    overflow-x: auto;
+    position: relative;
+    z-index: -10;
+}
+
+.story::-webkit-scrollbar{
+    width: 0px;
+}
+
+.story .stories{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 20px;
+    background-color: #c62d8f;
+    padding: 2px;
+}
+
+.story .stories img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    
+    
+    
+}
+
+.story .stories p{
+    text-align: center;
+    cursor: pointer;
+    
+}
+/* story end here */
+
+/* ########## (screen-2) Media query for screens with a width between 577 to 768px   start here ############## */
+/* Small Devices (Tablets and Small Laptops) */
+@media (min-width: 770px) and (max-width: 1189px){
+    
+    .story{
+        width: 80%;
+        margin: 10px 5px;
+        margin-left: 265px;
+        display: flex;
+        border: 1px solid rgba(219, 219, 219, 1);
+        border-radius: 8px;
+        background-color: white;
+        padding: 30px 15px;
+        overflow-x: auto;
+    }
+}
+
+
+/* ########## (screen-3) Media query for screens with a width between 577 to 768px   start here ############## */
+/* Small Devices (Tablets and Small Laptops) */
+@media (min-width: 577px) and (max-width: 768px){
+
+    .story{
+        width: 100%;
+        margin: 70px 2px;
+        display: flex;
+        border: 1px solid rgba(219, 219, 219, 1);
+        border-radius: 8px;
+        background-color: white;
+        padding: 30px 15px;
+        overflow-x: auto;
+    }
+
+    .story .stories{
+        position: relative;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        margin: 0 20px;
+        background-color: #c62d8f;
+        padding: 2px;
+        
+    }
+    
+    .story .stories img{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        
+    }
+    
+    .story .stories p{
+        text-align: center;
+        
+    }
+}
+
+
+/* ########## (screen-4) Media query for screens with a width between 431px to  576px   start here ############## */
+/* Small Devices (Tablets and Small Laptops) */
+@media (min-width: 431px) and (max-width: 576px){
+
+    .story{
+        width: 100%;
+        margin: 70px 2px;
+        display: flex;
+        border: 1px solid rgba(219, 219, 219, 1);
+        border-radius: 8px;
+        background-color: white;
+        padding: 30px 15px;
+        overflow-x: auto;
+    }
+
+
+.story .stories{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 20px;
+    background-color: #c62d8f;
+    padding: 2px;
+    
+}
+
+.story .stories img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    
+}
+
+.story .stories p{
+    text-align: center;
+    
+}
+
+}
+
+
+/* ########## (screen-5) Media query for screens with a width between 301px to  430px   start here ############## */
+/* Small Devices (Tablets and Small Laptops) */
+@media (min-width:301px) and (max-width: 430px){
+
+    .story{
+        width: 100%;
+        margin: 70px 2px;
+        display: flex;
+        border: 1px solid rgba(219, 219, 219, 1);
+        border-radius: 8px;
+        background-color: white;
+        padding: 30px 15px;
+        overflow-x: auto;
+    }
+
+
+    .story .stories{
+        position: relative;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        margin: 0 20px;
+        background-color: #c62d8f;
+        padding: 2px;
+        
+    }
+
+.story .stories img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    
+}
+
+.story .stories p{
+    text-align: center;
+    
+}
+
+}
+
+/* ########## (screen-6) Media query for screens with min-width  3o0px   start here ############## */
+/* Small Devices (Tablets and Small Laptops) */
+@media(max-width: 300px){
+
+    .story{
+        width: 100%;
+        margin: 70px 2px;
+        display: flex;
+        border: 1px solid rgba(219, 219, 219, 1);
+        border-radius: 8px;
+        background-color: white;
+        padding: 30px 15px;
+        overflow-x: auto;
+    }
+
+    .story .stories{
+        position: relative;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        margin: 0 20px;
+        background-color: #c62d8f;
+        padding: 2px;
+        
+    }
+    
+    .story .stories img{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        
+    }
+
+    .story .stories p{
+        text-align: center;
+        
+    }
+   
+}
